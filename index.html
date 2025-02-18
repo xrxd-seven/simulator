@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新人小店 - 变速器下载</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #e74c3c;
+            text-align: center;
+        }
+        .download-section {
+            margin: 25px 0;
+            padding: 15px;
+            background: #f9f9f9;
+            border-left: 4px solid #3498db;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .notice {
+            color: #e67e22;
+            padding: 10px;
+            background: #fdf2e9;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 30px;
+            color: #666;
+        }
+        .copy-code {
+            cursor: pointer;
+            padding: 2px 5px;
+            background: #eee;
+            border-radius: 3px;
+        }
+        button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>欢迎光临新人小店 </h1>
+        <div class="notice">
+            ⚠️ 下载后请解压，文档内有详细使用说明
+        </div>
+        <div class="download-section">
+            <h2> 变速器下载</h2>
+            <p>链接：<a href="https://www.123865.com/s/IfJiVv-e6TE3?" target="_blank">点击下载</a></p>
+            <p>提取码：<span class="copy-code" onclick="alert('已复制提取码：xrxd')">xrxd</span></p>
+        </div>
+        <div class="download-section">
+            <h2>️ 连点器下载</h2>
+            <p>链接：<a href="https://down.shudaxia.com/ShuDaXia_PC_OFFICES_Setup_v2.8.0.8.exe" target="_blank">点击下载</a></p>
+        </div>
+        <div class="notice">
+             好评即赠送全套兑换码！使用中有任何问题请立即联系小店处理
+        </div>
+        <div class="contact">
+            <h3> 联系我们</h3>
+            <p>请通过小店留言功能联系我们</p>
+            <p>我们会用心处理每一个问题！</p>
+            <p style="color: #999; margin-top: 20px;">⭐ 感谢您的支持与信任 ⭐</p>
+        </div>
+    </div>
+    <script>
+        // 简单复制功能
+        document.querySelectorAll('.copy-code').forEach(item => {
+            item.addEventListener('click', function() {
+                const code = this.innerText;
+                navigator.clipboard.writeText(code).then(() => {
+                    alert('已复制：' + code);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
